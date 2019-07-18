@@ -15,31 +15,32 @@
 ## ➤ Installation
 
 ```
-$ npm i https://github.com/marius2502/bronco-searchbar.git
+$ npm i https://github.com/marius2502/bronco-icon.git
 ```
 
 ```javascript
-import '@marius/broncosearchbar/dist/main';
+import '@marius/broncoicon/dist/main';
 ```
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#bronco-searchbar)
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#bronco-icon)
 
-## ➤ bronco-searchbar
+## ➤ bronco-icon
 
-Searchbar with suggestions
+This web component easily produces icons
 
-### Events
+### Properties
 
-| Event      | Description                                      |
-|------------|--------------------------------------------------|
-| `selected` | Dispatches a CustomEvent when nav item is selected. Selected item is stored in detail of Custom event |
+| Property   | Type     | Default | Description                                      |
+|------------|----------|---------|--------------------------------------------------|
+| `iconName` | `string` | ""      | Commit the name of the preferred icon from here: https://material.io/tools/icons/ |
 
 ### CSS Custom Properties
 
-| Property     | Description                 |
-|--------------|-----------------------------|
-| `--bg-color` | Background color of navitem |
+| Property  | Description       |
+|-----------|-------------------|
+| `--color` | Color of the icon |
+| `--size`  | Size of the icon  |
 
 
 
