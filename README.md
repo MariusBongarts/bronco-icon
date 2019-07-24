@@ -37,10 +37,11 @@ This web component easily produces icons
 
 ### CSS Custom Properties
 
-| Property  | Description       |
-|-----------|-------------------|
-| `--color` | Color of the icon |
-| `--size`  | Size of the icon  |
+| Property                                         | Description       |
+|--------------------------------------------------|-------------------|
+| `--box-shadow box shadow attribute. Default: none` |                   |
+| `--color`                                        | Color of the icon |
+| `--size`                                         | Size of the icon  |
 
 
 

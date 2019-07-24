@@ -4,6 +4,7 @@ const componentCSS = require('./app.component.scss');
 
 /**
  * This web component easily produces icons
+ * @cssprop --box-shadow box shadow attribute. Default: none
  * @cssprop --color - Color of the icon
  * @cssprop --size - Size of the icon
  */

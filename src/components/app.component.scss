@@ -1,4 +1,5 @@
 :host {
+  --box-shadow: none;
   --color: black;
   --size: 50px;
 }
@@ -8,7 +9,9 @@
   font-weight: normal;
   font-style: normal;
   font-size: var(--size);
+  box-shadow: var(--box-shadow);
   color: var(--color);
+  border-radius: 50%;
   display: inline-block;
   line-height: 1;
   text-transform: none;
