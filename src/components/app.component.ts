@@ -25,6 +25,7 @@ export class BroncoIcon extends LitElement {
     const link = document.createElement('link');
     link.href = 'https://fonts.googleapis.com/icon?family=Material+Icons';
     link.rel = 'stylesheet';
+    document.head.appendChild(link);
     // Has to be done because the new icons are documented with _ online. But in this css class they are splitted by -
     const arrString = this.iconName.split('_');
     this.iconName = arrString.join('-');
